@@ -1,0 +1,21 @@
+{
+  "name": "eris-plus",
+  "version": "0.0.1",
+  "description": "A package for Eris that adds some useful features.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+    },
+  "keywords": [
+    "eris",
+    "discord"
+  ],
+  "author": "d0ex",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
